@@ -1,20 +1,20 @@
 # Python Backup Manager
 
-A Python-based backup automation tool that monitors disk utilization and triggers 
-file/directory backups when a set threshold is exceeded — runnable via command line 
+A Python based backup automation tool that monitors disk utilization and triggers 
+file/directory backups when a set threshold is exceeded. It is runnable via command line 
 or a Tkinter GUI.
 
 ---
 
 ## What It Does
 
-- **Disk Monitoring** — checks disk usage against a defined threshold and 
+- **Disk Monitoring** : checks disk usage against a defined threshold and 
   triggers a backup automatically when exceeded
-- **File & Directory Backup** — copies files and directories to a timestamped 
+- **File & Directory Backup** : copies files and directories to a timestamped 
   destination path
-- **Compression** — archives backed-up data into a `.tar.gz` compressed file
-- **Logging** — writes all activity to a structured log file with timestamps
-- **Dual Interface** — runs as a desktop GUI (Tkinter) or via command line arguments
+- **Compression** : archives backed-up data into a `.tar.gz` compressed file
+- **Logging** : writes all activity to a structured log file with timestamps
+- **Dual Interface** : runs as a desktop GUI (Tkinter) or via command line arguments
 
 ---
 
@@ -55,11 +55,11 @@ Launches a Tkinter form where you can fill in all parameters and submit.
 ## Built With
 
 - Python 3
-- `shutil` — file and directory operations
-- `tarfile` — backup compression
-- `logging` — structured log output
-- `tkinter` — desktop GUI interface
-- `subprocess` / `os` — disk monitoring and system commands
+- `shutil` : file and directory operations
+- `tarfile` : backup compression
+- `logging` : structured log output
+- `tkinter` : desktop GUI interface
+- `subprocess` / `os` : disk monitoring and system commands
 
 ---
 
