@@ -1,4 +1,4 @@
-# Python Backup Manager
+# threshold-watchdog
 
 A Python based backup automation tool that monitors disk utilization and triggers 
 file/directory backups when a set threshold is exceeded. It is runnable via command line 
